@@ -1,5 +1,113 @@
-body {
+/* body {
     background-color: rgb(12, 12, 12);
     color: gold;
     font-family: 'Noto Serif Display', serif;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Noto+Serif+Display:ital,wght@0,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Serif Display', serif;
+    color: #777;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px, solid, rgb(255, 255, 255);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-image: url("images/runway-bg.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.brand-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Fuggles', cursive;
+    color: gold;
+}
+
+.brand-name-lg {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+}
+
+.about-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: aqua;
+    columns: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em
 }
